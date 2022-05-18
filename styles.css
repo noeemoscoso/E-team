@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Abolition';
+    src: url('font/FontsFree-Net-Abolition-W00-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+.paginasIniciales{
+    background-color:#794296;
+    height: 100%;
+    font-size: 80%;
+
+}
+.color-primary{
+    color:#794296;
+}
+.bg-primary{
+    background-color: #794296 !important; 
+}
+.tipografiaAbolition{
+    font-family: 'Abolition';
+}
+.negrita{
+    font-weight: bold;  
+}
+.menorSaltoLinea{
+    line-height:80%;
+}
+.input{
+    text-align: center;
+    margin: 10px;
+    padding: 1% 15%;
+}
+
+.boton{
+    border:0;
+    color:#ffffff;
+    padding:3% 15%;
+    margin: 10%;
+}
+a{
+    color: #794296;
+    text-decoration:none;
+}
+/* PAGINA LOGIN */
+.circulo {
+    height: 100%; 
+    width: 50%; 
+    border-radius: 0 0  100% ; 
+    background-color: #ffffff;
+}
+.contenedorLogo{
+    height: 30%;
+    width: 100%;
+    margin-top: 10%;
+    
+}
+.logo{
+    padding: 5%;
+    height: 100%;
+    display: block;
+    margin: 0px auto;
+}
+.contenedorFormularioRegistro{
+    height: 60%;
+    width: 100%;
+}
+.formularioRegistro{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* PAGINA REGISTRO */
+.eslogan{
+    font-family:'Abolition';
+    font-size: 325%;
+}
+.esloganGamer{
+    font-size: 325%;
+    line-height:80%;
+}
+.formarParte{
+    font-size:300%;
+}
